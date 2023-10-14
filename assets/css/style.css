@@ -99,6 +99,10 @@ position: fixed;
     text-align: center;
 }
 
+.title__head{
+    font-size: 30px;
+}
+
 .title__descr{
     color: #404040;
     font-size: 14px;
