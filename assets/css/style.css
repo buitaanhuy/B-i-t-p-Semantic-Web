@@ -45,6 +45,24 @@ html{
     }
 }
 
+.header{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+}
+
+/* .nav__main{
+position: fixed;
+    top: 0;
+    z-index: 1;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+} */
+/* dùng js để chỉnh header chuẩn hơn */
 
 .header__search{
     background-color: #eee;
@@ -117,6 +135,7 @@ html{
 
 .container{
     background-color: #E5ECE9;
+    margin-top: 226.909px;
 }
 
 .wrapper{
@@ -142,7 +161,7 @@ html{
 }
 
 .content__items{
-    padding: 0 26px;    
+    padding: 0 28px;    
 }
 
 .item__time{
@@ -159,7 +178,7 @@ html{
 
 .item__header{
     margin-bottom: 16px;
-    font-size: 26px;
+    font-size: 24px;
 }
 
 .item__icon{
@@ -266,6 +285,7 @@ html{
     padding: 16px 26px;
     animation: fadeOut linear 0.6s;
     font-size: 14px;
+    text-decoration: none;
 }
 
 .sub__search__input:focus{
